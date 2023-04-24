@@ -8,7 +8,7 @@ project:
   source_files:        
     - simon.v
     - top.v
-  top_module:  "wokwi_tt03_simon_top"      # put the name of your top module here, make it unique by prepending your github username
+  top_module:  "wokwi_tt03_simon_top_fast"      # put the name of your top module here, make it unique by prepending your github username
 
 # Keep a track of the submission yaml
 yaml_version: 3.0
@@ -19,7 +19,7 @@ yaml_version: 3.0
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "Uri Shaked"      # Your name
-  title:        "Simon Says"      # Project title
+  title:        "Simon Says (fastclk)"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "A simple memory game"      # Short description of what your project does
 
@@ -39,10 +39,10 @@ documentation:
 
       | clk3 | clk1 | Clock Speed |
       |------|------|-------------|
-      | 0    | 0    | 4KHz        |
-      | 0    | 1    | 6KHz        |
-      | 1    | 0    | 12KHz       |
-      | 1    | 1    | 14KHz       |
+      | 0    | 0    | 16KHz       |
+      | 0    | 1    | 20KHz       |
+      | 1    | 0    | 32KHz       |
+      | 1    | 1    | 35KHz       |
 
       Setting the clock speed affects the speed of the game and the tone generator.
       
@@ -87,5 +87,5 @@ documentation:
   external_hw:  "Four push buttons (with pull-down resistors), four LEDs, and optionally a speaker/buzzer"      # Describe any external hardware needed
   discord:      "urish#8086"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     "https://wokwi.com/projects/352319274216569857"      # URL to longer form documentation, eg the README.md in your repository
-  clock_hz:     4000      # Clock frequency in Hz (if required)
+  clock_hz:     35000      # Clock frequency in Hz (if required)
   picture:      "docs/tt-simon-game.jpg"      # relative path to a picture in your repository

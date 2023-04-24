@@ -26,10 +26,10 @@ The game supports four clock speeds, which can be selected using the clk3 and cl
 
 | clk3 | clk1 | Clock Speed |
 |------|------|-------------|
-| 0    | 0    | 4KHz        |
-| 0    | 1    | 6KHz        |
-| 1    | 0    | 12KHz       |
-| 1    | 1    | 14KHz       |
+| 0    | 0    | 16KHz       |
+| 0    | 1    | 20KHz       |
+| 1    | 0    | 32KHz       |
+| 1    | 1    | 35KHz       |
 
 Setting the clock speed affects the speed of the game and the tone generator.
 
